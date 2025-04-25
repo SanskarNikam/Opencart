@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opencart Navbar</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <span class="currency"> ₹<span id="currency"></span> Currency</span>
+            <span class="contact">📞 6360639208</span>
+            <span class="account">👤 My Account</span>
+            <span class="wishlist">❤️ Wish List</span>
+            <span class="cart">🛒 Shopping Cart</span>
+            <span class="checkout">↗ Checkout</span>
+        </div>
+        
+        <div class="main-nav">
+            <div class="logo">
+                <img src="https://demo.opencart.com/image/catalog/opencart-logo.png" alt="Opencart Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button>🔍</button>
+            </div>
+            <div class="cart-summary">
+                <button>🛒 <span id="items"></span> item(s)</button>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="../sort/sort.html">Desktops</a></li>
+                <li><a href="../sort/sort.html">Laptops</a></li>
+                <!-- <li><a href="../sort/sort.html">Components</a></li>
+                <li><a href="../sort/sort.html">Tablets</a></li>
+                <li><a href="../sort/sort.html">Software</a></li> -->
+                <li><a href="../sort/sort.html">IPhones</a></li>
+                <li><a href="../sort/sort.html">Cameras</a></li>
+                <li><a href="../sort/sort.html">MP3 Players</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="nav.js"></script>
+</body>
+</html>
+<script>
+    document.getElementById("gotosearch").addEventListener("click",()=>{
+    window.location.href = `../sort/sort.html`
+   })
+//    document.querySelector(".account").addEventListener("click",()=>{
+//     window.location.href = `../../Account/account.html`
+//    })
+</script>
+
