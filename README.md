@@ -1,6 +1,4 @@
-
-
-fs41_452348-Day-3
+ fs40_360678
 ## Features
 - Fetches product data from Firebase Realtime Database.
 - Displays products dynamically in a container.
